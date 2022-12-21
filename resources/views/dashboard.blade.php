@@ -1,7 +1,7 @@
 <x-app-layout>
 
 
-<h1>This is Demo User</h1>
+<h1>This is Dashboard</h1>
 
 
 </x-app-layout>
