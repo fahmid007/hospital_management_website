@@ -18,11 +18,22 @@ class HomeController extends Controller
 
         }else{
             // return redirect()->back();
-            return view('welcome');
+            return view('user.home');
         }
     }
 
     public function index(){
-        return view('user.home');
+        // return view('user.home');
+        if(Auth::Id()){
+            if(Auth::user()->userType=='0'){
+                return View('user.home');
+            }else{
+                return View('admin.home');
+            }
+
+        }else{
+            // return redirect()->back();
+            return view('user.home');
+        }
     }
 }

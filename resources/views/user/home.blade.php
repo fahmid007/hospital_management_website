@@ -165,21 +165,21 @@
   </div> <!-- .bg-light -->
 
   <!-- Our Doctor Start -->
-  @include('user.doctor');
+  @include('user.doctor')
   <!-- Our Doctor End -->
 
 
   <!-- Latest News Start -->
-  @include('user.news');
+  @include('user.news')
   <!-- Latest News End -->
 
   <!-- Make an Appointment Start -->
-  @include('user.appointment');
+  @include('user.appointment')
   <!-- Make an Appointment End -->
 
 
   <!-- Footer Start -->
-  @include('user.footer');
+  @include('user.footer')
   <!-- Footer End -->
 
 <script src="../assets/js/jquery-3.5.1.min.js"></script>
